@@ -67,6 +67,8 @@ e com $\theta_0 = 90\degree$
 ![pendulumSolve01](imgs/pendulumSolve02.jpeg)
 ![pendulumSolve01](imgs/pendulumSolve-Phase02.jpeg)
 
+**Importante:** É possível ver que a amplitude da oscilação do pêndulo tende a aumentar com o tempo, violando a conservação de energia. Além disso, observe que as trajetórias no espaço de fase não são fechadas, sendo que na realidade, elas deveriam ser. Isso acontece por conta do **erro** acumulado do método.
+
 # Euler Method
 
 O método de Euler é um procedimento numérico para resolver uma equação diferencial ordinária de primeira ordem com condição inicial dada. É um método explícito e é o mais simples dos métodos de Runge-Kutta. Recebeu o nome por conta do trabalho publicado por Euler "Institutionum calculi integralis".
@@ -106,7 +108,7 @@ ___
 
 # Referências
 
-1. https://en.wikipedia.org/wiki/Lorenz_system
-2. https://en.wikipedia.org/wiki/Pendulum_(mechanics)
-3. https://www.ime.unicamp.br/~biloti/an/211/edo-01.html
-4. https://en.wikipedia.org/wiki/Euler_method
+1. Wikipedia, Lorenz system .[Link](https://en.wikipedia.org/wiki/Lorenz_system)
+2. Wikipedia, Pendulum (Mechanics). [Link](https://en.wikipedia.org/wiki/Pendulum_(mechanics))
+3. Curso de Cálculo Númerico, Prof. Biloti (Unicamp). [Link](https://www.ime.unicamp.br/~biloti/an/211/edo-01.html)
+4. Wikipedia, Euler Method. [Link](https://en.wikipedia.org/wiki/Euler_method)
