@@ -89,10 +89,11 @@ def plot_riemannsum(f, xinterval, no_divisions):
     
     draw_centered_axis(ax)
     
-arg = [lambda x: sin(x), (0, pi), 40]
+arg = [lambda x: sin(x), (0, pi), 20]
 plot_riemannsum(*arg)
 result = approx_integral(*arg)
 plt.text(1.5, -0.3, r"$\sum_{i=1}^{n}f(x_i)\Delta x" + f"={result:.3f}$", ha="center", fontdict=dict(fontsize=16))
 
 plt.tight_layout()
+plt.savefig("Riemann Sum/imgs/riemann_sum01.jpeg")
 plt.show()
