@@ -29,7 +29,6 @@ def apply_rule(X, s):
                     newX[i, j] = 1
     return newX
 
-
 def update(frameNo, X, img, s, totalFrames):
     X[:] = apply_rule(X, s)
     img.set_data(X)
@@ -52,9 +51,12 @@ plt.xlim(-.5, s-.5)
 plt.ylim(-.5, s-.5)
 # plt.grid(linewidth=2)
 
-totalFrames = 120*5
+fps = 12 # frames p second
+time = 6 # seconds
+totalFrames = fps * time
+ 
 ani = animation.FuncAnimation(fig, update, frames=totalFrames, fargs=[X, img, s, totalFrames], repeat=True)
 # repeat = True, garante que a animação roda em Loop Infinito
-ani.save('animation.mp4', fps=12)
+ani.save('animation.gif', fps=fps)
 print()
 plt.show()

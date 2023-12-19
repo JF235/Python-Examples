@@ -15,8 +15,7 @@ As regras são:
 Em analogia, ao produto externo $u \otimes v$, dados dois vetores $u$ e $v$, a **adição externa** pode ser definida como
 
 $$
-u \oplus v
-= 
+u \oplus v = 
 \begin{bmatrix}
 u_1 \\
 u_2 \\

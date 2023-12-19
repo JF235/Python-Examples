@@ -10,7 +10,7 @@ Prepare to delve into a world of Python's capabilities and witness its magic in 
 
 ## Mandelbrot Set
 
-![mandelbrot_image](Complex/imgs/mandelbrot_image.png)
+![mandelbrot_image](Mandelbrot/imgs/mandelbrot_image.png)
 
 ## Newton's Fractal
 
@@ -33,3 +33,7 @@ Prepare to delve into a world of Python's capabilities and witness its magic in 
 ## Riemann Sum
 
 ![riemann_sum01](Riemann%20Sum/imgs/riemann_sum01.jpeg)
+
+## Game Of Life
+
+![game_of_life](Game%20of%20Life/animation.gif)
